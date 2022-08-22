@@ -1,0 +1,33 @@
+.filterbar {
+  margin: 1rem;
+  flex: 1;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 2rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.filters div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.filterbar button {
+  padding: 0.5rem 0;
+}

@@ -1,0 +1,23 @@
+.cart-checkout {
+  flex: 1.5;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 2rem;
+  height: 38rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cart-checkout button {
+  background-color: rgb(39, 134, 229);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.25s ease-in-out;
+  border: none;
+}
+
+.cart-checkout button:hover {
+  background-color: rgb(11, 99, 187);
+}

@@ -1,0 +1,7 @@
+.products {
+  padding: 2rem 3rem;
+  flex: 4.5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
